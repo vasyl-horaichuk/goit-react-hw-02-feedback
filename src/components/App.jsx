@@ -4,7 +4,7 @@ import { Section } from './Section/Section';
 import { Statistic } from './Statistics/Statistics';
 import { Notification } from './Notification/Notification';
 
-export class App extends Component {
+export default class App extends Component {
   state = {
     good: 0,
     neutral: 0,
